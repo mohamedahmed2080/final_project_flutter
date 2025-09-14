@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
-import 'account_page.dart';
-import 'cart_page.dart';
-import 'product_details_page.dart';
+import 'profile.dart';
+import 'cartscreen.dart';
+import 'detailsscreen.dart';
 
 class HomePage extends StatefulWidget {
   final String? token;
@@ -73,7 +73,6 @@ class _HomePageState extends State<HomePage>
   }
 
   List<Widget> _pages() => [
-    // Page 1: Home
     Column(
       children: [
         Padding(
